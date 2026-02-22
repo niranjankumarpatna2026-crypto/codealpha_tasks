@@ -10,26 +10,30 @@
 
 This project performs an **Exploratory Data Analysis (EDA)** on a dataset of COVID-19 clinical trials obtained from ClinicalTrials.gov. The analysis aims to understand the characteristics, distribution, and global trends of clinical research conducted during the pandemic.
 
-## 🎯 Objectives
+## 📊 Dataset Information
 
-- Analyze the distribution of clinical trials by **status** (Recruiting, Completed, etc.)
-- Examine trial **phases** and their relationship with trial status
-- Identify **geographical distribution** of trials across countries
-- Study **enrollment patterns** and participant numbers
-- Analyze **temporal trends** in trial initiations
-- Create comprehensive **visualizations** to communicate findings
+The dataset consists of **two files** downloaded from Kaggle:
 
-## 📊 Dataset Description
+| File | Description | Records | Columns |
+|------|-------------|---------|---------|
+| `COVID clinical trials.csv` | Main dataset with trial details | 5,783 | 27 |
+| `COVID clinical trials metadata.xlsx` | Metadata explaining column descriptions | - | - |
 
-| Attribute | Details |
-|-----------|---------|
-| **Source** | ClinicalTrials.gov |
-| **File Name** | `COVID clinical trials.csv` |
-| **Records** | 5,783 clinical trials |
-| **Features** | 27 columns including NCT Number, Status, Phases, Enrollment, Locations, Start Date |
-| **Time Period** | Trials registered during COVID-19 pandemic |
+### 📁 Dataset Files
 
-**Dataset Link:** [COVID-19 Clinical Trials on Kaggle](https://www.kaggle.com/datasets/nailasrivastava/covid-19-clinical-trials-data)
+1. **`COVID clinical trials.csv`** - Main data file containing information about 5,783 clinical trials including:
+   - NCT Number, Title, Status, Phases
+   - Enrollment numbers
+   - Locations and Countries
+   - Start and Completion Dates
+   - Study Type and Design
+
+2. **`COVID clinical trials metadata.xlsx`** - Metadata file explaining each column in detail, including:
+   - Column names and descriptions
+   - Data types
+   - Value explanations
+
+**Dataset Source:** [COVID-19 Clinical Trials on Kaggle](https://www.kaggle.com/datasets/nailasrivastava/covid-19-clinical-trials-data)
 
 ## 🛠️ Technologies Used
 
@@ -40,11 +44,13 @@ This project performs an **Exploratory Data Analysis (EDA)** on a dataset of COV
 | **NumPy** | Numerical computing |
 | **Matplotlib** | Data visualization |
 | **Seaborn** | Statistical data visualization |
+| **openpyxl** | Reading Excel metadata file |
 
 ## 📈 Key Insights
 
 | Insight | Finding |
 |---------|---------|
+| **Total Trials** | 5,783 trials analyzed |
 | **Status Distribution** | 2,805 trials (48.5%) were in "Recruiting" status |
 | **Most Common Phase** | Phase 2 trials were most frequent among interventional studies |
 | **Top Country** | United States leads with 1,267 trials |
@@ -64,15 +70,3 @@ Ensure Python 3.8 or higher is installed on your system.
 ```bash
 git clone https://github.com/yourusername/COVID19-Clinical-Trials-EDA.git
 cd COVID19-Clinical-Trials-EDA
-
-
-## 🚀 Installation & Setup
-
-### Prerequisites
-
-Ensure Python 3.8 or higher is installed on your system.
-
-### Step 1: Clone the Repository
-
-
-
