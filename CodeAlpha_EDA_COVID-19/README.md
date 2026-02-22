@@ -68,5 +68,5 @@ Ensure Python 3.8 or higher is installed on your system.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/COVID19-Clinical-Trials-EDA.git
-cd COVID19-Clinical-Trials-EDA
+[git clone https://github.com/yourusername/COVID19-Clinical-Trials-EDA.git
+cd COVID19-Clinical-Trials-EDA](https://github.com/niranjankumarpatna2026-crypto/codealpha_tasks.git)
